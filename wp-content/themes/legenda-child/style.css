@@ -1,0 +1,66 @@
+/*
+Theme Name:     legenda-child
+Description:    legenda-child
+Author:         kimyo
+Template:       legenda
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+
+
+/* 전체적용 */
+body{font-size:14px !important;}
+body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important ; }
+h1, h2, h3, h4, h5, h6{font-weight:bold;padding:0;margin:0;}
+body{position:relative;width:100%;}
+
+
+a:link, a:hover, a:active, a:visited {text-decoration:none;}
+.p_color{color: #ff7302;}
+
+
+/* 폰트설정 */
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css" );
+@import url("http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumpenscript.css");
+@import url("http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css"); 
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+.f_brush{font-family:'Nanum Brush Script',cursive;}
+.f_myeongjo{font-family: 'Nanum Myeongjo', serif;}
+
+
+/* 정보 페이지 */
+.post-info{display:none;}
+.blog-post .post-title {line-height:1.2em;}
+.blog-post .post-title a{font-size:22px;}
+
+.info_tit{font-size:18px;margin:25px 0 15px 0;}
+.info_tit span{color:#ef007c;}
+.cont_s_tit{padding:7px;background:#009999;color:#fff;margin-bottom:15px;}
+
+.info_dic{padding:20px;border:1px dotted #ef0000;font-size:13px;}
+.tag-container{margin-top:50px;}
+
+.table_s_01{width:100%;border-top:3px solid #3acf87;border-collapse:collapse;padding:0;margin:0;}
+.table_s_01 th{text-align: center; vertical-align: middle;border:1px solid #ebebeb;padding:5px 3px;background:#f2f2f2;}
+.table_s_01 td{border:1px solid #ebebeb;padding:5px 3px;text-align:center;}
+
+.table_s_02{width:100%;border-top:3px solid #3acf87;border-collapse:collapse;padding:0;margin:0;font-size:13px;}
+.table_s_02 th{text-align: center; vertical-align: middle;border:1px solid #ebebeb;padding:5px 3px;background:#f2f2f2;}
+.table_s_02 td{border:1px solid #ebebeb;padding:5px 3px;text-align:left;}
+
+.info_cont_tit{text-align:center;color:#649700;}
+.info_cont_en{font-size:12px;color:#aeaeae;}
+
+/* 결제 페이지 */
+#billing_email_field{float:right;}
+#billing_phone_field{float:left;}
+#shipping_first_name_field{width:100%;}
+
+/* 특성이미지 수정 */
+.wp-picture{display:none;}
