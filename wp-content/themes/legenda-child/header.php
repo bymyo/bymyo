@@ -49,6 +49,10 @@
         
 </head>
 <body <?php body_class(); ?>>
+	<?php
+	/* 구글 애널리틱스 코드 */
+		include_once("analyticstracking.php")
+	?>
 	<?php if(etheme_get_option('mobile_loader')): ?>
 		<div class="mobile-loader hidden-desktop">
 			<div id="floatingCirclesG"><div class="f_circleG" id="frotateG_01"></div><div class="f_circleG" id="frotateG_02"></div><div class="f_circleG" id="frotateG_03"></div><div class="f_circleG" id="frotateG_04"></div><div class="f_circleG" id="frotateG_05"></div><div class="f_circleG" id="frotateG_06"></div><div class="f_circleG" id="frotateG_07"></div><div class="f_circleG" id="frotateG_08"></div></div>
