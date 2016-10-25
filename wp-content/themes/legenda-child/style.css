@@ -7,8 +7,6 @@ Template:       legenda
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
 
-
-
 /* 전체적용 */
 body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important ; }
 a:link, a:hover, a:active, a:visited {text-decoration:none;}
@@ -27,6 +25,10 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 .p_color{color: #ff7302;}
 .f_brush{font-family:'Nanum Brush Script',cursive;}
 .f_myeongjo{font-family: 'Nanum Myeongjo', serif;}
+
+/* 공통 스타일 적용 */
+.breadcrumbs, .woocommerce-breadcrumb {padding-top:10px;}
+
 
 /* 정보 페이지 */
 .post-info{display:none;}
