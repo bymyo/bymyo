@@ -8,7 +8,7 @@ Template:       legenda
 */
 
 /* 전체적용 */
-body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important ; }
+body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important;}
 a:link, a:hover, a:active, a:visited {text-decoration:none;}
 
 
@@ -58,3 +58,15 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 
 /* 특성이미지 수정 */
 .wp-picture{display:none;}
+
+
+/* 모바일 */
+.et-mobile-menu li > a {padding:10px 10px 10px 20px !important;}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 760px) {
+
+}
