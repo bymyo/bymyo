@@ -96,6 +96,16 @@
 
 		wp_footer();
 	?>
+
+
+/* 네이버 애널리틱스 */
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "2b21d5d270a630";
+wcs_do();
+</script>
+
 </body>
 
 

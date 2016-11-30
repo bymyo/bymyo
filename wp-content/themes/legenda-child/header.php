@@ -49,7 +49,7 @@
         
 </head>
 <body <?php body_class(); ?>>
-	<?php
+<?php
 	/* 구글 애널리틱스 코드 */
 		include_once("analyticstracking.php")
 	?>
